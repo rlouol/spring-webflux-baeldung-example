@@ -44,6 +44,14 @@ Spring Webflux를 사용하여 매우 간단한 반응형 REST EmployeeManagemen
 
 <br>
 
+## WebFilter와 HandlerFilterFunction 구현의 차이
+
+WebFilter 구현은 모든 엔드포인트에서 작동하고 HandlerFilterFunction 구현은 Router 기반 구현에서만 작동한다.
+
+<br>
+
 ## Reference
 
-Link : https://www.baeldung.com/spring-webflux
+- https://www.baeldung.com/spring-webflux
+- https://www.baeldung.com/spring-5-functional-web
+- https://www.baeldung.com/spring-webflux-filters
